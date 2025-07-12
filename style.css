@@ -22,13 +22,14 @@
         nav {
             position: fixed;
             top: 0;
-            width: 90%;
+            width: 100%;
             background: #6d06bc65;
             backdrop-filter: blur(10px);
             z-index: 1000;
             padding: 8px 0;
             transition: all 0.3s ease;
-            margin-left: 50px;
+            /* margin-left: 25px;
+            margin-right: 25px; */
             margin-top: 10px;
             border-radius: 50px;
             padding-left: 30px;
