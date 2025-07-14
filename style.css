@@ -858,7 +858,7 @@
       100% { transform: scale(1); opacity: 1; }
     } */
    .contact-links a {
-        color: #e0e0e0;
+        color: #b0b0b0;
         text-decoration: none; /* remove underline */
     }
     .contact-links a:hover {
@@ -867,6 +867,6 @@
     }
     .contact-links a:active,
     .contact-links a:visited {
-        color: #e0e0e0; /* revert to original after active or visited */
+        color: #b0b0b0; /* revert to original after active or visited */
         text-decoration: none;
     }
