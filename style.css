@@ -858,10 +858,10 @@
       100% { transform: scale(1); opacity: 1; }
     } */
    contact-links a {
-        color: #1a73e8; /* replace with your desired color */
+        color: ##e0e0e0; /* replace with your desired color */
         text-decoration: none; /* removes underline if you want */
     }
     .contact-links a:hover {
-        color: #0c47a1; /* optional: darker shade on hover */
+        color: ##e0e0e0; /* optional: darker shade on hover */
         text-decoration: underline; /* optional hover effect */
     }
