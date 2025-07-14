@@ -857,11 +857,16 @@
       50% { transform: scale(1.1); opacity: 0.7; }
       100% { transform: scale(1); opacity: 1; }
     } */
-   contact-links a {
-        color: ##e0e0e0; /* replace with your desired color */
-        text-decoration: none; /* removes underline if you want */
+   .contact-links a {
+        color: #e0e0e0;
+        text-decoration: none; /* remove underline */
     }
     .contact-links a:hover {
-        color: ##e0e0e0; /* optional: darker shade on hover */
-        text-decoration: underline; /* optional hover effect */
+        color: #ffffff; /* lighter on hover */
+        text-decoration: underline;
+    }
+    .contact-links a:active,
+    .contact-links a:visited {
+        color: #e0e0e0; /* revert to original after active or visited */
+        text-decoration: none;
     }
